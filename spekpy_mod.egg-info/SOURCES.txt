@@ -1,0 +1,698 @@
+setup.py
+spekpy_mod/DataTables.py
+spekpy_mod/IO.py
+spekpy_mod/SpekAniso.py
+spekpy_mod/SpekConstants.py
+spekpy_mod/SpekHelpers.py
+spekpy_mod/SpekModel.py
+spekpy_mod/SpekPy.py
+spekpy_mod/SpekState.py
+spekpy_mod/SpekTools.py
+spekpy_mod/__init__.py
+spekpy_mod.egg-info/PKG-INFO
+spekpy_mod.egg-info/SOURCES.txt
+spekpy_mod.egg-info/dependency_links.txt
+spekpy_mod.egg-info/not-zip-safe
+spekpy_mod.egg-info/requires.txt
+spekpy_mod.egg-info/top_level.txt
+spekpy_mod/data/matl_def/1,2-Dichlorobenzene.comp
+spekpy_mod/data/matl_def/1,2-Dichloroethane.comp
+spekpy_mod/data/matl_def/1,3-Butadiene (Liquid).comp
+spekpy_mod/data/matl_def/1,3-Butadiene.comp
+spekpy_mod/data/matl_def/1-Butene (Liquid).comp
+spekpy_mod/data/matl_def/1-Butene.comp
+spekpy_mod/data/matl_def/A-150 Tissue-Equivalent Gas.comp
+spekpy_mod/data/matl_def/A-150 Tissue-Equivalent Plastic.comp
+spekpy_mod/data/matl_def/Ac.comp
+spekpy_mod/data/matl_def/Acetone.comp
+spekpy_mod/data/matl_def/Acetylene.comp
+spekpy_mod/data/matl_def/Adenine.comp
+spekpy_mod/data/matl_def/Adipose Tissue (ICRP).comp
+spekpy_mod/data/matl_def/Adipose Tissue (ICRU).comp
+spekpy_mod/data/matl_def/Adipose Tissue Substitute (AP-L2, Aqueous).comp
+spekpy_mod/data/matl_def/Adipose Tissue Substitute (AP-SF1, Epoxy-based).comp
+spekpy_mod/data/matl_def/Adipose Tissue Substitute (AP6, Epoxy-based).comp
+spekpy_mod/data/matl_def/Ag.comp
+spekpy_mod/data/matl_def/Air Dry (Near Sea Level).comp
+spekpy_mod/data/matl_def/Air-Equivalent Plastic (C-552).comp
+spekpy_mod/data/matl_def/Air.comp
+spekpy_mod/data/matl_def/Al.comp
+spekpy_mod/data/matl_def/Alanine.comp
+spekpy_mod/data/matl_def/Aluminum Alloy (Type 1100).comp
+spekpy_mod/data/matl_def/Aluminum Alloy (Type 2014).comp
+spekpy_mod/data/matl_def/Aluminum Alloy (Type 6061).comp
+spekpy_mod/data/matl_def/Aluminum Oxide.comp
+spekpy_mod/data/matl_def/Amber.comp
+spekpy_mod/data/matl_def/Ammonia.comp
+spekpy_mod/data/matl_def/Ammonium Formate.comp
+spekpy_mod/data/matl_def/Aniline.comp
+spekpy_mod/data/matl_def/Anthracene.comp
+spekpy_mod/data/matl_def/Ar.comp
+spekpy_mod/data/matl_def/As.comp
+spekpy_mod/data/matl_def/At.comp
+spekpy_mod/data/matl_def/Au.comp
+spekpy_mod/data/matl_def/B.comp
+spekpy_mod/data/matl_def/Ba.comp
+spekpy_mod/data/matl_def/Bakelite.comp
+spekpy_mod/data/matl_def/Barium Fluoride.comp
+spekpy_mod/data/matl_def/Barium Sulfate.comp
+spekpy_mod/data/matl_def/Be.comp
+spekpy_mod/data/matl_def/Benzene.comp
+spekpy_mod/data/matl_def/Beryllium Oxide.comp
+spekpy_mod/data/matl_def/Bi.comp
+spekpy_mod/data/matl_def/Bismuth Germanium Oxide.comp
+spekpy_mod/data/matl_def/Blood (ICRP).comp
+spekpy_mod/data/matl_def/Blood, Whole (ICRU).comp
+spekpy_mod/data/matl_def/Bone Substitute (SB3).comp
+spekpy_mod/data/matl_def/Bone Substitute (SB5, Epoxy-based).comp
+spekpy_mod/data/matl_def/Bone, Compact (ICRU).comp
+spekpy_mod/data/matl_def/Bone, Cortical (ICRP).comp
+spekpy_mod/data/matl_def/Bone, Cortical (ICRU).comp
+spekpy_mod/data/matl_def/Bone-Equivalent Plastic (B-100).comp
+spekpy_mod/data/matl_def/Bone-Equivalent Plastic (B-110).comp
+spekpy_mod/data/matl_def/Boron Carbide.comp
+spekpy_mod/data/matl_def/Boron Oxide.comp
+spekpy_mod/data/matl_def/Br.comp
+spekpy_mod/data/matl_def/Brain (ICRP).comp
+spekpy_mod/data/matl_def/Brain, Grey and White Matter (ICRU).comp
+spekpy_mod/data/matl_def/Breast Tissue (ICRU).comp
+spekpy_mod/data/matl_def/Breast Tissue Substitute (BR12, Epoxy-based).comp
+spekpy_mod/data/matl_def/Breast Tissue Substitute (Griffith).comp
+spekpy_mod/data/matl_def/Butane.comp
+spekpy_mod/data/matl_def/C.comp
+spekpy_mod/data/matl_def/Ca.comp
+spekpy_mod/data/matl_def/Cadmium Sulfide.comp
+spekpy_mod/data/matl_def/Cadmium Telluride.comp
+spekpy_mod/data/matl_def/Cadmium Tungstate.comp
+spekpy_mod/data/matl_def/Calcium Carbonate.comp
+spekpy_mod/data/matl_def/Calcium Fluoride.comp
+spekpy_mod/data/matl_def/Calcium Oxide.comp
+spekpy_mod/data/matl_def/Calcium Sulfate.comp
+spekpy_mod/data/matl_def/Calcium Tungstate.comp
+spekpy_mod/data/matl_def/Cameron Wax.comp
+spekpy_mod/data/matl_def/Carbon Dioxide.comp
+spekpy_mod/data/matl_def/Carbon Disulfide.comp
+spekpy_mod/data/matl_def/Carbon Monoxide.comp
+spekpy_mod/data/matl_def/Carbon Tetrachloride.comp
+spekpy_mod/data/matl_def/Cd.comp
+spekpy_mod/data/matl_def/Ce.comp
+spekpy_mod/data/matl_def/Cell Nucleus (ICRU).comp
+spekpy_mod/data/matl_def/Cell Nucleus (Typical).comp
+spekpy_mod/data/matl_def/Cellophane.comp
+spekpy_mod/data/matl_def/Cellulose Acetate (Cellophane).comp
+spekpy_mod/data/matl_def/Cellulose Acetate Butyrate.comp
+spekpy_mod/data/matl_def/Cellulose Nitrate.comp
+spekpy_mod/data/matl_def/Cesium Chloride.comp
+spekpy_mod/data/matl_def/Cesium Fluoride.comp
+spekpy_mod/data/matl_def/Cesium Iodide.comp
+spekpy_mod/data/matl_def/Chlorobenzene.comp
+spekpy_mod/data/matl_def/Cl.comp
+spekpy_mod/data/matl_def/Co.comp
+spekpy_mod/data/matl_def/Concrete (Ordinary).comp
+spekpy_mod/data/matl_def/Concrete (Ordinary, Type 03).comp
+spekpy_mod/data/matl_def/Concrete (Ordinary, Type 04).comp
+spekpy_mod/data/matl_def/Concrete Barite (Type BA).comp
+spekpy_mod/data/matl_def/Concrete Limonite and Steel (Type LS).comp
+spekpy_mod/data/matl_def/Concrete Magnetite (Type M).comp
+spekpy_mod/data/matl_def/Concrete Magnetite and Steel (Type MS2).comp
+spekpy_mod/data/matl_def/Concrete Serpentine (Type S).comp
+spekpy_mod/data/matl_def/Concrete.comp
+spekpy_mod/data/matl_def/Copper Alloy (Admiralty Metal).comp
+spekpy_mod/data/matl_def/Copper Alloy (Bell Metal).comp
+spekpy_mod/data/matl_def/Copper Alloy (Cartridge Brass).comp
+spekpy_mod/data/matl_def/Copper Alloy (Commercial Bronze).comp
+spekpy_mod/data/matl_def/Copper Alloy (Commercial Leaded Bronze).comp
+spekpy_mod/data/matl_def/Copper Alloy (Free Cutting Brass).comp
+spekpy_mod/data/matl_def/Copper Alloy (Gunmetal).comp
+spekpy_mod/data/matl_def/Copper Alloy (Low Brass).comp
+spekpy_mod/data/matl_def/Copper Alloy (Manganese bronze).comp
+spekpy_mod/data/matl_def/Copper Alloy (Muntzmetal).comp
+spekpy_mod/data/matl_def/Copper Alloy (Naval Brass).comp
+spekpy_mod/data/matl_def/Copper Alloy (Red Brass).comp
+spekpy_mod/data/matl_def/Copper Alloy (Yellow Brass).comp
+spekpy_mod/data/matl_def/Cr.comp
+spekpy_mod/data/matl_def/Cs.comp
+spekpy_mod/data/matl_def/Cu.comp
+spekpy_mod/data/matl_def/Cyclohexane.comp
+spekpy_mod/data/matl_def/Delrin.comp
+spekpy_mod/data/matl_def/Dichlorodiethyl Ether.comp
+spekpy_mod/data/matl_def/Diethyl Ether.comp
+spekpy_mod/data/matl_def/Dimethylsulf Oxide.comp
+spekpy_mod/data/matl_def/Dosimeter Solutiom, 0.015 M Ceric Ammonium Sulfate.comp
+spekpy_mod/data/matl_def/Dosimeter Solution, 0.0015 M Ceric+0.0030 M Cerous Sulfate.comp
+spekpy_mod/data/matl_def/Dosimeter Solution, 0.010 M Ceric+0.010 M Ceroussulfate.comp
+spekpy_mod/data/matl_def/Dosimeter Solution, 0.015 M Ceric+0.015 M Cerous Sulfate.comp
+spekpy_mod/data/matl_def/Dosimeter Solution, 0.020 M Cric Ammonium Sulfate.comp
+spekpy_mod/data/matl_def/Dosimeter Solution, Ethanol-Monochlorobenzene.comp
+spekpy_mod/data/matl_def/Dosimeter Solution, Ferrous Ammonium Sulfate (Standard Fricke).comp
+spekpy_mod/data/matl_def/Dosimeter Solution, Ferrous Ammonium Sulfate (Super Fricke).comp
+spekpy_mod/data/matl_def/Dosimeter Solution, Ferrous Sulfate (Standard Fricke).comp
+spekpy_mod/data/matl_def/Dosimeter Solution, Ferrous Sulfate (Super Ficke).comp
+spekpy_mod/data/matl_def/Dosimeter Solution, Potassium Dichromate (Standard).comp
+spekpy_mod/data/matl_def/Dosimter Solution, Potassium Dichromate (Hi-Dose).comp
+spekpy_mod/data/matl_def/Dy.comp
+spekpy_mod/data/matl_def/Er.comp
+spekpy_mod/data/matl_def/Ethane.comp
+spekpy_mod/data/matl_def/Ethoxyethanol.comp
+spekpy_mod/data/matl_def/Ethyl Acetate.comp
+spekpy_mod/data/matl_def/Ethyl Alcohol.comp
+spekpy_mod/data/matl_def/Ethyl Cellulose.comp
+spekpy_mod/data/matl_def/Ethyl Ether.comp
+spekpy_mod/data/matl_def/Ethylene Ethene.comp
+spekpy_mod/data/matl_def/Ethylene Glycol.comp
+spekpy_mod/data/matl_def/Eu.comp
+spekpy_mod/data/matl_def/Eye Lens (ICRP).comp
+spekpy_mod/data/matl_def/Eye Lens (ICRU).comp
+spekpy_mod/data/matl_def/F.comp
+spekpy_mod/data/matl_def/Fe.comp
+spekpy_mod/data/matl_def/Ferric Oxide.comp
+spekpy_mod/data/matl_def/Ferroboride.comp
+spekpy_mod/data/matl_def/Ferrous Oxide.comp
+spekpy_mod/data/matl_def/Fr.comp
+spekpy_mod/data/matl_def/Freon (12).comp
+spekpy_mod/data/matl_def/Freon (12b2).comp
+spekpy_mod/data/matl_def/Freon (13).comp
+spekpy_mod/data/matl_def/Freon (13b1).comp
+spekpy_mod/data/matl_def/Freon (13i1).comp
+spekpy_mod/data/matl_def/GI-tract Intestine (ICRU).comp
+spekpy_mod/data/matl_def/Ga.comp
+spekpy_mod/data/matl_def/Gadolinium Oxysulfide.comp
+spekpy_mod/data/matl_def/Gallium Arsenide.comp
+spekpy_mod/data/matl_def/Gd.comp
+spekpy_mod/data/matl_def/Ge.comp
+spekpy_mod/data/matl_def/Gel in Photographic Emulsion (Standard Nuclear).comp
+spekpy_mod/data/matl_def/Glass (Lead).comp
+spekpy_mod/data/matl_def/Glass (Plate).comp
+spekpy_mod/data/matl_def/Glass Borosilicate (Corning Pyrex 7740).comp
+spekpy_mod/data/matl_def/Glucose (Dextrose).comp
+spekpy_mod/data/matl_def/Glutamine.comp
+spekpy_mod/data/matl_def/Glycerol.comp
+spekpy_mod/data/matl_def/Glyceryl Trioleate (Olein).comp
+spekpy_mod/data/matl_def/Guanine.comp
+spekpy_mod/data/matl_def/Gypsum (Plaster of Paris).comp
+spekpy_mod/data/matl_def/H.comp
+spekpy_mod/data/matl_def/He.comp
+spekpy_mod/data/matl_def/Heart, Blood Filled (ICRU).comp
+spekpy_mod/data/matl_def/Hf.comp
+spekpy_mod/data/matl_def/Hg.comp
+spekpy_mod/data/matl_def/Ho.comp
+spekpy_mod/data/matl_def/Hydrogen Peroxide.comp
+spekpy_mod/data/matl_def/I.comp
+spekpy_mod/data/matl_def/In.comp
+spekpy_mod/data/matl_def/Ir.comp
+spekpy_mod/data/matl_def/K.comp
+spekpy_mod/data/matl_def/Kapton Polyimide Film.comp
+spekpy_mod/data/matl_def/Kapton.comp
+spekpy_mod/data/matl_def/Kidney (ICRU).comp
+spekpy_mod/data/matl_def/Kovar.comp
+spekpy_mod/data/matl_def/Kr.comp
+spekpy_mod/data/matl_def/La.comp
+spekpy_mod/data/matl_def/Lanthanum Oxybromide.comp
+spekpy_mod/data/matl_def/Lanthanum Oxysulfide.comp
+spekpy_mod/data/matl_def/Lead Alloy (Babbitt Metal Pb and As-based).comp
+spekpy_mod/data/matl_def/Lead Alloy (Babbitt Metal Pb-based).comp
+spekpy_mod/data/matl_def/Lead Oxide.comp
+spekpy_mod/data/matl_def/Lexan.comp
+spekpy_mod/data/matl_def/Li.comp
+spekpy_mod/data/matl_def/Lincolnshire Bolus Muscle Substitute (ICRU).comp
+spekpy_mod/data/matl_def/Lincolnshire Bolus Muscle Substitute.comp
+spekpy_mod/data/matl_def/Lipid Substitute (EVA-28).comp
+spekpy_mod/data/matl_def/Lithium Amide.comp
+spekpy_mod/data/matl_def/Lithium Carbonate.comp
+spekpy_mod/data/matl_def/Lithium Fluoride.comp
+spekpy_mod/data/matl_def/Lithium Hydride.comp
+spekpy_mod/data/matl_def/Lithium Iodide.comp
+spekpy_mod/data/matl_def/Lithium Oxide.comp
+spekpy_mod/data/matl_def/Lithium Tetraborate.comp
+spekpy_mod/data/matl_def/Liver (ICRU).comp
+spekpy_mod/data/matl_def/Lu.comp
+spekpy_mod/data/matl_def/Lung Inflated (ICRU).comp
+spekpy_mod/data/matl_def/Lung Substitute (Alderson, Epoxy-based).comp
+spekpy_mod/data/matl_def/Lung Substitute (Griffith, Polyurethane-based).comp
+spekpy_mod/data/matl_def/Lung Substitute (LN10-75, Epoxy-based).comp
+spekpy_mod/data/matl_def/Lung Tissue (ICRP).comp
+spekpy_mod/data/matl_def/Lung Tissue (ICRU).comp
+spekpy_mod/data/matl_def/Lymph (ICRU).comp
+spekpy_mod/data/matl_def/Magnesium Carbonate.comp
+spekpy_mod/data/matl_def/Magnesium Fluoride.comp
+spekpy_mod/data/matl_def/Magnesium Orthosilicate (Powder).comp
+spekpy_mod/data/matl_def/Magnesium Orthosilicate.comp
+spekpy_mod/data/matl_def/Magnesium Oxide.comp
+spekpy_mod/data/matl_def/Magnesium Tetraborate.comp
+spekpy_mod/data/matl_def/Mercuric Iodide.comp
+spekpy_mod/data/matl_def/Methane.comp
+spekpy_mod/data/matl_def/Methanol.comp
+spekpy_mod/data/matl_def/Mg.comp
+spekpy_mod/data/matl_def/Mn.comp
+spekpy_mod/data/matl_def/Mo.comp
+spekpy_mod/data/matl_def/Muscle Skeletal (ICRP).comp
+spekpy_mod/data/matl_def/Muscle Skeletal (ICRU).comp
+spekpy_mod/data/matl_def/Muscle Straiated (ICRU).comp
+spekpy_mod/data/matl_def/Muscle Substitute (Alderson, Rubber-based Composition A).comp
+spekpy_mod/data/matl_def/Muscle Substitute (Alderson, Rubber-based Composition B).comp
+spekpy_mod/data/matl_def/Muscle Substitute (Griffith, Polyurethane-based).comp
+spekpy_mod/data/matl_def/Muscle Substitute (RM-1, Polyethylene-based).comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Gel Frigerio et al (ICRU).comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Gel Frigerio et al.comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Gel Rossi.comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Liquid (Goodman Liquid).comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Liquid Frigerio et al.comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Liquid Without Sucrose.comp
+spekpy_mod/data/matl_def/Muscle-Equivalent Liquid with Sucrose (Rossi Liquid).comp
+spekpy_mod/data/matl_def/Mylar.comp
+spekpy_mod/data/matl_def/N,N-Dimethylformamide.comp
+spekpy_mod/data/matl_def/N-Butyl Alcohol.comp
+spekpy_mod/data/matl_def/N-Decane (Liquid).comp
+spekpy_mod/data/matl_def/N-Decane.comp
+spekpy_mod/data/matl_def/N-Heptane (Liquid).comp
+spekpy_mod/data/matl_def/N-Heptane.comp
+spekpy_mod/data/matl_def/N-Heptyne (Liquid).comp
+spekpy_mod/data/matl_def/N-Heptyne.comp
+spekpy_mod/data/matl_def/N-Hexane (Liquid).comp
+spekpy_mod/data/matl_def/N-Hexane.comp
+spekpy_mod/data/matl_def/N-Hexyne (Liquid).comp
+spekpy_mod/data/matl_def/N-Hexyne.comp
+spekpy_mod/data/matl_def/N-Nonane (Liquid).comp
+spekpy_mod/data/matl_def/N-Nonane.comp
+spekpy_mod/data/matl_def/N-Pentane (Liquid).comp
+spekpy_mod/data/matl_def/N-Pentane.comp
+spekpy_mod/data/matl_def/N-Pentyne (Liquid).comp
+spekpy_mod/data/matl_def/N-Pentyne.comp
+spekpy_mod/data/matl_def/N-Propyl Alcohol.comp
+spekpy_mod/data/matl_def/N.comp
+spekpy_mod/data/matl_def/Na.comp
+spekpy_mod/data/matl_def/Napthalene.comp
+spekpy_mod/data/matl_def/Nb.comp
+spekpy_mod/data/matl_def/Nckel Alloy (Hastelloy B).comp
+spekpy_mod/data/matl_def/Nd.comp
+spekpy_mod/data/matl_def/Ne.comp
+spekpy_mod/data/matl_def/Ni.comp
+spekpy_mod/data/matl_def/Nickel Alloy (Iconel).comp
+spekpy_mod/data/matl_def/Nickel Alloy (Monel).comp
+spekpy_mod/data/matl_def/Nickel Alloy (Mumetal).comp
+spekpy_mod/data/matl_def/Nickel Alloy (Nichrome).comp
+spekpy_mod/data/matl_def/Nitrobenzene.comp
+spekpy_mod/data/matl_def/Nitrocellulose.comp
+spekpy_mod/data/matl_def/Nitrous Oxide.comp
+spekpy_mod/data/matl_def/Nylon (Dupont Elvamide 8062M).comp
+spekpy_mod/data/matl_def/Nylon (Rislan, Type 11).comp
+spekpy_mod/data/matl_def/Nylon (Type 6 And Type 66).comp
+spekpy_mod/data/matl_def/Nylon (Type 6-10).comp
+spekpy_mod/data/matl_def/O.comp
+spekpy_mod/data/matl_def/Octane Liquid.comp
+spekpy_mod/data/matl_def/Octane.comp
+spekpy_mod/data/matl_def/Os.comp
+spekpy_mod/data/matl_def/Ovary (ICRU).comp
+spekpy_mod/data/matl_def/P.comp
+spekpy_mod/data/matl_def/Pa.comp
+spekpy_mod/data/matl_def/Pancreas (ICRU).comp
+spekpy_mod/data/matl_def/Pb.comp
+spekpy_mod/data/matl_def/Pd.comp
+spekpy_mod/data/matl_def/Perspex.comp
+spekpy_mod/data/matl_def/Photographic Emulsion (Kodak Type AA And M).comp
+spekpy_mod/data/matl_def/Photographic Emulsion (Standard Nuclear).comp
+spekpy_mod/data/matl_def/Photographic Emulsion, Silverhalidesin (Standard Nuclear).comp
+spekpy_mod/data/matl_def/Plastic Scintillator (Vinyltoluene-based).comp
+spekpy_mod/data/matl_def/Plutonium Dioxide.comp
+spekpy_mod/data/matl_def/Pm.comp
+spekpy_mod/data/matl_def/Po.comp
+spekpy_mod/data/matl_def/Polyacrylonitrile.comp
+spekpy_mod/data/matl_def/Polybromostyrene.comp
+spekpy_mod/data/matl_def/Polycarbonate (Makrolon or Lexan).comp
+spekpy_mod/data/matl_def/Polychlorostyrene.comp
+spekpy_mod/data/matl_def/Polyethylene Terephthalate (Mylar).comp
+spekpy_mod/data/matl_def/Polyethylene.comp
+spekpy_mod/data/matl_def/Polymethyl Methacrylate (Lucite Perspex or Plexiglas).comp
+spekpy_mod/data/matl_def/Polyoxymethylene (Delrin).comp
+spekpy_mod/data/matl_def/Polypropylene.comp
+spekpy_mod/data/matl_def/Polystyrene.comp
+spekpy_mod/data/matl_def/Polytetrafluoroethylene (Teflon).comp
+spekpy_mod/data/matl_def/Polytrifluorochloroethylene.comp
+spekpy_mod/data/matl_def/Polyurethane.comp
+spekpy_mod/data/matl_def/Polyvinyl Acetate.comp
+spekpy_mod/data/matl_def/Polyvinyl Alcohol.comp
+spekpy_mod/data/matl_def/Polyvinyl Butyral.comp
+spekpy_mod/data/matl_def/Polyvinyl Chloride.comp
+spekpy_mod/data/matl_def/Polyvinyl Pyrrolidone.comp
+spekpy_mod/data/matl_def/Polyvinylidene Chloride (Saran).comp
+spekpy_mod/data/matl_def/Polyvinylidene Fluoride (Kynar).comp
+spekpy_mod/data/matl_def/Potassium Iodide.comp
+spekpy_mod/data/matl_def/Potassium Oxide.comp
+spekpy_mod/data/matl_def/Pr.comp
+spekpy_mod/data/matl_def/Propane (Liquid).comp
+spekpy_mod/data/matl_def/Propane.comp
+spekpy_mod/data/matl_def/Propylene Propene (Liquid).comp
+spekpy_mod/data/matl_def/Propylene Propene.comp
+spekpy_mod/data/matl_def/Pt.comp
+spekpy_mod/data/matl_def/Pyridine.comp
+spekpy_mod/data/matl_def/Ra.comp
+spekpy_mod/data/matl_def/Radiochromicdye Film (Nylon-based).comp
+spekpy_mod/data/matl_def/Rb.comp
+spekpy_mod/data/matl_def/Re.comp
+spekpy_mod/data/matl_def/Red Marrow Skeletal (ICRU).comp
+spekpy_mod/data/matl_def/Red Marrow Substitute (RM-G1, Water-based Gel).comp
+spekpy_mod/data/matl_def/Red Marrow Substitute (RM-L3, Aqueous).comp
+spekpy_mod/data/matl_def/Red Marrow Substitute (RM-SR4, Epoxy-based).comp
+spekpy_mod/data/matl_def/Rh.comp
+spekpy_mod/data/matl_def/Rice Powder.comp
+spekpy_mod/data/matl_def/Rn.comp
+spekpy_mod/data/matl_def/Ru.comp
+spekpy_mod/data/matl_def/Rubber (Butyl).comp
+spekpy_mod/data/matl_def/Rubber (Natural).comp
+spekpy_mod/data/matl_def/Rubber (Neoprene).comp
+spekpy_mod/data/matl_def/S.comp
+spekpy_mod/data/matl_def/Sb.comp
+spekpy_mod/data/matl_def/Sc.comp
+spekpy_mod/data/matl_def/Se.comp
+spekpy_mod/data/matl_def/Si.comp
+spekpy_mod/data/matl_def/Silicon Dioxide (Quartz).comp
+spekpy_mod/data/matl_def/Silicon Dioxide.comp
+spekpy_mod/data/matl_def/Silicon Nitride.comp
+spekpy_mod/data/matl_def/Silver Bromide.comp
+spekpy_mod/data/matl_def/Silver Chloride.comp
+spekpy_mod/data/matl_def/Silver Iodide.comp
+spekpy_mod/data/matl_def/Skeletal Cartilage (ICRU).comp
+spekpy_mod/data/matl_def/Skeletal Spongiosa (ICRU).comp
+spekpy_mod/data/matl_def/Skin (ICRP).comp
+spekpy_mod/data/matl_def/Skin (ICRU).comp
+spekpy_mod/data/matl_def/Skin Substitute (SK2, Polyethylene-based 1.09g_cm-3).comp
+spekpy_mod/data/matl_def/Skin Substitute (SK2, Polyethylene-based 1.19g_cm-3).comp
+spekpy_mod/data/matl_def/Sm.comp
+spekpy_mod/data/matl_def/Sn.comp
+spekpy_mod/data/matl_def/Sodium Carbonate.comp
+spekpy_mod/data/matl_def/Sodium Chloride.comp
+spekpy_mod/data/matl_def/Sodium Dioxide.comp
+spekpy_mod/data/matl_def/Sodium Monoxide.comp
+spekpy_mod/data/matl_def/Sodium Nitrate.comp
+spekpy_mod/data/matl_def/Soil (Typicalloam Seltzer).comp
+spekpy_mod/data/matl_def/Solder Plumber (50-50).comp
+spekpy_mod/data/matl_def/Solder Soft (40-60).comp
+spekpy_mod/data/matl_def/Solder Soft (67-33).comp
+spekpy_mod/data/matl_def/Spleen (ICRU).comp
+spekpy_mod/data/matl_def/Sr.comp
+spekpy_mod/data/matl_def/Steel, Stainless (Type 302).comp
+spekpy_mod/data/matl_def/Steel, Stainless (Type 316l).comp
+spekpy_mod/data/matl_def/Stilbene.comp
+spekpy_mod/data/matl_def/Sucrose.comp
+spekpy_mod/data/matl_def/Ta.comp
+spekpy_mod/data/matl_def/Tb.comp
+spekpy_mod/data/matl_def/Tc.comp
+spekpy_mod/data/matl_def/Te.comp
+spekpy_mod/data/matl_def/Teflon.comp
+spekpy_mod/data/matl_def/Temex Muscle Substitute (Rubber-based).comp
+spekpy_mod/data/matl_def/Terphenyl.comp
+spekpy_mod/data/matl_def/Testes (ICRP).comp
+spekpy_mod/data/matl_def/Testes (ICRU).comp
+spekpy_mod/data/matl_def/Tetrachloroethylene.comp
+spekpy_mod/data/matl_def/Th.comp
+spekpy_mod/data/matl_def/Thalliumchloride.comp
+spekpy_mod/data/matl_def/Thyroid (ICRU).comp
+spekpy_mod/data/matl_def/Thyroid Substitute (TH-L2, Aqueous).comp
+spekpy_mod/data/matl_def/Ti.comp
+spekpy_mod/data/matl_def/Tissue Substitute (MS20).comp
+spekpy_mod/data/matl_def/Tissue, Soft (ICRP).comp
+spekpy_mod/data/matl_def/Tissue, Soft Four Component (ICRU).comp
+spekpy_mod/data/matl_def/Tissue-Equivalent Gas (Ethylene Ethane-based).comp
+spekpy_mod/data/matl_def/Tissue-Equivalent Gas (Hydrogen-based).comp
+spekpy_mod/data/matl_def/Tissue-Equivalent Gas (Methane-based).comp
+spekpy_mod/data/matl_def/Tissue-Equivalent Gas (Propane-based).comp
+spekpy_mod/data/matl_def/Titanium Dioxide.comp
+spekpy_mod/data/matl_def/Tl.comp
+spekpy_mod/data/matl_def/Tm.comp
+spekpy_mod/data/matl_def/Toluene.comp
+spekpy_mod/data/matl_def/Trichloroethylene.comp
+spekpy_mod/data/matl_def/Trichloromethane (Chloroform).comp
+spekpy_mod/data/matl_def/Triethyl Phosphate.comp
+spekpy_mod/data/matl_def/Tungsten Alloy (Mallory 2000).comp
+spekpy_mod/data/matl_def/Tungsten Alloy (Type A2).comp
+spekpy_mod/data/matl_def/Tungsten Alloy (Type B2).comp
+spekpy_mod/data/matl_def/Tungsten Alloy (Type C2).comp
+spekpy_mod/data/matl_def/Tungsten Hexafluoride.comp
+spekpy_mod/data/matl_def/U.comp
+spekpy_mod/data/matl_def/Uranium Dicarbide.comp
+spekpy_mod/data/matl_def/Uranium Monocarbide.comp
+spekpy_mod/data/matl_def/Uranium Oxide.comp
+spekpy_mod/data/matl_def/Uranyliodate Alpha.comp
+spekpy_mod/data/matl_def/Urea.comp
+spekpy_mod/data/matl_def/V.comp
+spekpy_mod/data/matl_def/Valine.comp
+spekpy_mod/data/matl_def/Viton Fluoroelastomer.comp
+spekpy_mod/data/matl_def/W.comp
+spekpy_mod/data/matl_def/WT1 Water Substitute (Epoxy-based).comp
+spekpy_mod/data/matl_def/Water Substitute (RW-1, Polyethene-based).comp
+spekpy_mod/data/matl_def/Water, Liquid 75.comp
+spekpy_mod/data/matl_def/Water, Liquid 78.comp
+spekpy_mod/data/matl_def/Water, Liquid.comp
+spekpy_mod/data/matl_def/Water, Vapor.comp
+spekpy_mod/data/matl_def/Water.comp
+spekpy_mod/data/matl_def/Wax, M3.comp
+spekpy_mod/data/matl_def/Wax, Mix D.comp
+spekpy_mod/data/matl_def/Wax, Paraffin (ICRU).comp
+spekpy_mod/data/matl_def/Wax, Paraffin.comp
+spekpy_mod/data/matl_def/Witt Liquid.comp
+spekpy_mod/data/matl_def/Xe.comp
+spekpy_mod/data/matl_def/Xylene.comp
+spekpy_mod/data/matl_def/Y.comp
+spekpy_mod/data/matl_def/Yb.comp
+spekpy_mod/data/matl_def/Yellow Marrow, Skeletal (ICRU).comp
+spekpy_mod/data/matl_def/Zinc Sulfide.comp
+spekpy_mod/data/matl_def/Zircaloy-2.comp
+spekpy_mod/data/matl_def/Zircaloy-4.comp
+spekpy_mod/data/matl_def/Zn.comp
+spekpy_mod/data/matl_def/Zr.comp
+spekpy_mod/data/state_def/CCRI_NIST_BIPM100.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM135.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM180.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM250.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM30.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM40.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM50a.state
+spekpy_mod/data/state_def/CCRI_NIST_BIPM50b.state
+spekpy_mod/data/state_def/ISO_NIST_HK100.state
+spekpy_mod/data/state_def/ISO_NIST_HK200.state
+spekpy_mod/data/state_def/ISO_NIST_HK250.state
+spekpy_mod/data/state_def/ISO_NIST_HK280.state
+spekpy_mod/data/state_def/ISO_NIST_HK30.state
+spekpy_mod/data/state_def/ISO_NIST_HK300.state
+spekpy_mod/data/state_def/ISO_NIST_HK60.state
+spekpy_mod/data/state_def/ISO_NIST_LK100.state
+spekpy_mod/data/state_def/ISO_NIST_LK125.state
+spekpy_mod/data/state_def/ISO_NIST_LK170.state
+spekpy_mod/data/state_def/ISO_NIST_LK210.state
+spekpy_mod/data/state_def/ISO_NIST_LK240.state
+spekpy_mod/data/state_def/ISO_NIST_LK30.state
+spekpy_mod/data/state_def/ISO_NIST_LK35.state
+spekpy_mod/data/state_def/ISO_NIST_LK55.state
+spekpy_mod/data/state_def/ISO_NIST_LK70.state
+spekpy_mod/data/state_def/ISO_NIST_NS100.state
+spekpy_mod/data/state_def/ISO_NIST_NS120.state
+spekpy_mod/data/state_def/ISO_NIST_NS150.state
+spekpy_mod/data/state_def/ISO_NIST_NS200.state
+spekpy_mod/data/state_def/ISO_NIST_NS250.state
+spekpy_mod/data/state_def/ISO_NIST_NS30.state
+spekpy_mod/data/state_def/ISO_NIST_NS300.state
+spekpy_mod/data/state_def/ISO_NIST_NS40.state
+spekpy_mod/data/state_def/ISO_NIST_NS60.state
+spekpy_mod/data/state_def/ISO_NIST_NS80.state
+spekpy_mod/data/state_def/ISO_NIST_WS110.state
+spekpy_mod/data/state_def/ISO_NIST_WS150.state
+spekpy_mod/data/state_def/ISO_NIST_WS200.state
+spekpy_mod/data/state_def/ISO_NIST_WS250.state
+spekpy_mod/data/state_def/ISO_NIST_WS300.state
+spekpy_mod/data/state_def/ISO_NIST_WS60.state
+spekpy_mod/data/state_def/ISO_NIST_WS80.state
+spekpy_mod/data/state_def/MEDPHYSPT1_DIFF_Mo_Mo35_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_DIFF_W_M100_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_DIFF_W_M300_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_DIFF_W_M30_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_KQP_Mo_Mo35_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_KQP_W_M100_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_KQP_W_M300_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_KQP_W_M30_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_SIM_Mo_Mo35_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_SIM_W_M100_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_SIM_W_M300_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_SIM_W_M30_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_UNI_Mo_Mo35_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_UNI_W_M100_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_UNI_W_M300_12.state
+spekpy_mod/data/state_def/MEDPHYSPT1_UNI_W_M30_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_Mo_Mo25_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_Mo_Mo25_21.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_Mo_Mo25_3.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_Mo_Mo35_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_Mo_Mo35_21.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_Mo_Mo35_3.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M100_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M100_21.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M100_3.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M300_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M300_21.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M300_3.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M30_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M30_21.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M30_3.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M50_12.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M50_21.state
+spekpy_mod/data/state_def/MEDPHYSPT2_KQP_W_M50_3.state
+spekpy_mod/data/state_def/NIST_NIST_H100.state
+spekpy_mod/data/state_def/NIST_NIST_H150.state
+spekpy_mod/data/state_def/NIST_NIST_H200.state
+spekpy_mod/data/state_def/NIST_NIST_H250.state
+spekpy_mod/data/state_def/NIST_NIST_H30.state
+spekpy_mod/data/state_def/NIST_NIST_H300.state
+spekpy_mod/data/state_def/NIST_NIST_H40.state
+spekpy_mod/data/state_def/NIST_NIST_H50.state
+spekpy_mod/data/state_def/NIST_NIST_H60.state
+spekpy_mod/data/state_def/NIST_NIST_L100.state
+spekpy_mod/data/state_def/NIST_NIST_L30.state
+spekpy_mod/data/state_def/NIST_NIST_L40.state
+spekpy_mod/data/state_def/NIST_NIST_L50.state
+spekpy_mod/data/state_def/NIST_NIST_L80.state
+spekpy_mod/data/state_def/NIST_NIST_M100.state
+spekpy_mod/data/state_def/NIST_NIST_M120.state
+spekpy_mod/data/state_def/NIST_NIST_M150.state
+spekpy_mod/data/state_def/NIST_NIST_M200.state
+spekpy_mod/data/state_def/NIST_NIST_M250.state
+spekpy_mod/data/state_def/NIST_NIST_M30.state
+spekpy_mod/data/state_def/NIST_NIST_M300.state
+spekpy_mod/data/state_def/NIST_NIST_M40.state
+spekpy_mod/data/state_def/NIST_NIST_M50.state
+spekpy_mod/data/state_def/NIST_NIST_M60.state
+spekpy_mod/data/state_def/NIST_NIST_M80.state
+spekpy_mod/data/state_def/NIST_NIST_S60.state
+spekpy_mod/data/state_def/NIST_NIST_S75.state
+spekpy_mod/data/state_def/PTB_DIN_A100.state
+spekpy_mod/data/state_def/PTB_DIN_A120.state
+spekpy_mod/data/state_def/PTB_DIN_A150.state
+spekpy_mod/data/state_def/PTB_DIN_A200.state
+spekpy_mod/data/state_def/PTB_DIN_A250.state
+spekpy_mod/data/state_def/PTB_DIN_A30.state
+spekpy_mod/data/state_def/PTB_DIN_A300.state
+spekpy_mod/data/state_def/PTB_DIN_A40.state
+spekpy_mod/data/state_def/PTB_DIN_A60.state
+spekpy_mod/data/state_def/PTB_DIN_A80.state
+spekpy_mod/data/state_def/PTB_DIN_B110.state
+spekpy_mod/data/state_def/PTB_DIN_B150.state
+spekpy_mod/data/state_def/PTB_DIN_B200.state
+spekpy_mod/data/state_def/PTB_DIN_B250.state
+spekpy_mod/data/state_def/PTB_DIN_B30.state
+spekpy_mod/data/state_def/PTB_DIN_B300.state
+spekpy_mod/data/state_def/PTB_DIN_B40.state
+spekpy_mod/data/state_def/PTB_DIN_B60.state
+spekpy_mod/data/state_def/PTB_DIN_B80.state
+spekpy_mod/data/state_def/PTB_DIN_C100.state
+spekpy_mod/data/state_def/PTB_DIN_C150.state
+spekpy_mod/data/state_def/PTB_DIN_C200.state
+spekpy_mod/data/state_def/PTB_DIN_C250.state
+spekpy_mod/data/state_def/PTB_DIN_C30.state
+spekpy_mod/data/state_def/PTB_DIN_C300.state
+spekpy_mod/data/state_def/PTB_DIN_C40.state
+spekpy_mod/data/state_def/PTB_DIN_C60.state
+spekpy_mod/data/state_def/PTB_DIN_C80.state
+spekpy_mod/data/state_def/PTB_IEC_RQA10.state
+spekpy_mod/data/state_def/PTB_IEC_RQA2.state
+spekpy_mod/data/state_def/PTB_IEC_RQA3.state
+spekpy_mod/data/state_def/PTB_IEC_RQA4.state
+spekpy_mod/data/state_def/PTB_IEC_RQA5.state
+spekpy_mod/data/state_def/PTB_IEC_RQA6.state
+spekpy_mod/data/state_def/PTB_IEC_RQA7.state
+spekpy_mod/data/state_def/PTB_IEC_RQA8.state
+spekpy_mod/data/state_def/PTB_IEC_RQA9.state
+spekpy_mod/data/state_def/PTB_IEC_RQR10.state
+spekpy_mod/data/state_def/PTB_IEC_RQR2.state
+spekpy_mod/data/state_def/PTB_IEC_RQR3.state
+spekpy_mod/data/state_def/PTB_IEC_RQR4.state
+spekpy_mod/data/state_def/PTB_IEC_RQR5.state
+spekpy_mod/data/state_def/PTB_IEC_RQR6.state
+spekpy_mod/data/state_def/PTB_IEC_RQR7.state
+spekpy_mod/data/state_def/PTB_IEC_RQR8.state
+spekpy_mod/data/state_def/PTB_IEC_RQR9.state
+spekpy_mod/data/state_def/PTB_IEC_RQT10.state
+spekpy_mod/data/state_def/PTB_IEC_RQT8.state
+spekpy_mod/data/state_def/PTB_IEC_RQT9.state
+spekpy_mod/data/state_def/PTB_ISO_H100.state
+spekpy_mod/data/state_def/PTB_ISO_H200.state
+spekpy_mod/data/state_def/PTB_ISO_H250.state
+spekpy_mod/data/state_def/PTB_ISO_H280.state
+spekpy_mod/data/state_def/PTB_ISO_H30.state
+spekpy_mod/data/state_def/PTB_ISO_H300.state
+spekpy_mod/data/state_def/PTB_ISO_H60.state
+spekpy_mod/data/state_def/PTB_ISO_L100.state
+spekpy_mod/data/state_def/PTB_ISO_L125.state
+spekpy_mod/data/state_def/PTB_ISO_L170.state
+spekpy_mod/data/state_def/PTB_ISO_L210.state
+spekpy_mod/data/state_def/PTB_ISO_L240.state
+spekpy_mod/data/state_def/PTB_ISO_L30.state
+spekpy_mod/data/state_def/PTB_ISO_L35.state
+spekpy_mod/data/state_def/PTB_ISO_L55.state
+spekpy_mod/data/state_def/PTB_ISO_L70.state
+spekpy_mod/data/state_def/PTB_ISO_N100.state
+spekpy_mod/data/state_def/PTB_ISO_N120.state
+spekpy_mod/data/state_def/PTB_ISO_N150.state
+spekpy_mod/data/state_def/PTB_ISO_N200.state
+spekpy_mod/data/state_def/PTB_ISO_N250.state
+spekpy_mod/data/state_def/PTB_ISO_N30.state
+spekpy_mod/data/state_def/PTB_ISO_N300.state
+spekpy_mod/data/state_def/PTB_ISO_N40.state
+spekpy_mod/data/state_def/PTB_ISO_N60.state
+spekpy_mod/data/state_def/PTB_ISO_N80.state
+spekpy_mod/data/state_def/PTB_ISO_W110.state
+spekpy_mod/data/state_def/PTB_ISO_W150.state
+spekpy_mod/data/state_def/PTB_ISO_W200.state
+spekpy_mod/data/state_def/PTB_ISO_W250.state
+spekpy_mod/data/state_def/PTB_ISO_W300.state
+spekpy_mod/data/state_def/PTB_ISO_W60.state
+spekpy_mod/data/state_def/PTB_ISO_W80.state
+spekpy_mod/data/state_def/SSM_BIPM_CCRI100.state
+spekpy_mod/data/state_def/SSM_BIPM_CCRI135.state
+spekpy_mod/data/state_def/SSM_BIPM_CCRI180.state
+spekpy_mod/data/state_def/SSM_BIPM_CCRI250.state
+spekpy_mod/data/state_def/SSM_BIPM_CCRI50(a).state
+spekpy_mod/data/state_def/SSM_BIPM_CCRI50(b).state
+spekpy_mod/data/state_def/SSM_IEC_RQA10.state
+spekpy_mod/data/state_def/SSM_IEC_RQA2.state
+spekpy_mod/data/state_def/SSM_IEC_RQA3.state
+spekpy_mod/data/state_def/SSM_IEC_RQA4.state
+spekpy_mod/data/state_def/SSM_IEC_RQA5.state
+spekpy_mod/data/state_def/SSM_IEC_RQA6.state
+spekpy_mod/data/state_def/SSM_IEC_RQA7.state
+spekpy_mod/data/state_def/SSM_IEC_RQA8.state
+spekpy_mod/data/state_def/SSM_IEC_RQA9.state
+spekpy_mod/data/state_def/SSM_IEC_RQR10.state
+spekpy_mod/data/state_def/SSM_IEC_RQR2.state
+spekpy_mod/data/state_def/SSM_IEC_RQR3.state
+spekpy_mod/data/state_def/SSM_IEC_RQR4.state
+spekpy_mod/data/state_def/SSM_IEC_RQR5.state
+spekpy_mod/data/state_def/SSM_IEC_RQR6.state
+spekpy_mod/data/state_def/SSM_IEC_RQR7.state
+spekpy_mod/data/state_def/SSM_IEC_RQR8.state
+spekpy_mod/data/state_def/SSM_IEC_RQR9.state
+spekpy_mod/data/state_def/SSM_IEC_RQT10.state
+spekpy_mod/data/state_def/SSM_IEC_RQT8.state
+spekpy_mod/data/state_def/SSM_IEC_RQT9.state
+spekpy_mod/data/state_def/SSM_ISO_L100.state
+spekpy_mod/data/state_def/SSM_ISO_L125.state
+spekpy_mod/data/state_def/SSM_ISO_L170.state
+spekpy_mod/data/state_def/SSM_ISO_L210.state
+spekpy_mod/data/state_def/SSM_ISO_L240.state
+spekpy_mod/data/state_def/SSM_ISO_L35.state
+spekpy_mod/data/state_def/SSM_ISO_L55.state
+spekpy_mod/data/state_def/SSM_ISO_L70.state
+spekpy_mod/data/state_def/SSM_ISO_N100.state
+spekpy_mod/data/state_def/SSM_ISO_N120.state
+spekpy_mod/data/state_def/SSM_ISO_N150.state
+spekpy_mod/data/state_def/SSM_ISO_N200.state
+spekpy_mod/data/state_def/SSM_ISO_N250.state
+spekpy_mod/data/state_def/SSM_ISO_N300.state
+spekpy_mod/data/state_def/SSM_ISO_N40.state
+spekpy_mod/data/state_def/SSM_ISO_N60.state
+spekpy_mod/data/state_def/SSM_ISO_N80.state
+spekpy_mod/data/tables/atwts.dat
+spekpy_mod/data/tables/erange.dat
+spekpy_mod/data/tables/lines.dat
+spekpy_mod/data/tables/ne.dat
+spekpy_mod/data/tables/nist_brem.dat
+spekpy_mod/data/tables/nist_mu.dat
+spekpy_mod/data/tables/nist_muen_air.dat
+tests/test_SpekPy.py

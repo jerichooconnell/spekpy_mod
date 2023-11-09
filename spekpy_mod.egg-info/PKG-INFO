@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: spekpy-mod
+Version: 2.0.10
+Summary: A Python software toolkit for modelling the x-ray spectra from x-ray tubes
+Home-page: https://bitbucket.org/spekpy/spekpy_release
+Author: Gavin Poludniowski & Robert Bujila
+Author-email: gpoludniowski@gmail.com
+License: MIT License
